@@ -27,8 +27,12 @@ li {
     font-size: 19px;
     padding-right: 100px;
     text-align: center;
+    
 }
 
+a {
+    color:white;
+}
 nav {
     display: flex;
     align-items: center;
@@ -42,7 +46,7 @@ header {
 }
 
 .logo {
-    height: 100px;
+    height: 140px;
     width: 450px;
     padding-left: 150px;
     padding-right: 50px;
@@ -100,7 +104,6 @@ footer {
     grid-template-columns: 1fr 1fr;
     grid-auto-rows: 500px;
     grid-gap: 10px;
-
 }
 
 .bb {
@@ -198,7 +201,7 @@ footer {
     }
       
     .logo {
-        height: 70px;
+        height: 150px;
         width: 200px;
         padding-left: 15px;
         padding-right: 30px;
