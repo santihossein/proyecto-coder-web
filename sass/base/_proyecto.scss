@@ -201,6 +201,12 @@ footer {
         height: 65px;
         justify-content:space-evenly;
     }
+
+    .marcas {
+        display: flex;
+        justify-content: space-around;
+        height: 50px;
+    }
     
     .container {
         grid-template-columns: 1fr;
