@@ -22,6 +22,14 @@ nav {
   width: 450px;
   padding-right: 10%; }
 
+footer {
+  display: flex;
+  padding: 10px 0 0 0;
+  border-top: var(--bordeheaderfooter);
+  background-color: var(--colorheaderfooter);
+  justify-content: space-around;
+  margin-top: 50px; }
+
 body {
   font-family: 'Open Sans', sans-serif;
   font-weight: normal; }
@@ -211,11 +219,3 @@ p {
     padding-right: 20px; }
   .redes {
     height: 20px; } }
-
-footer {
-  display: flex;
-  padding: 10px 0 0 0;
-  border-top: var(--bordeheaderfooter);
-  background-color: var(--colorheaderfooter);
-  justify-content: space-around;
-  margin-top: 50px; }
