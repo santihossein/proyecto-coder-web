@@ -3,25 +3,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400&family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400&family=Open+Sans:ital@1&family=Roboto&display=swap');
 
-:root {
-    --colorheaderfooter: #EEEEEE;
-    --bordeheaderfooter: solid 3px #DDDDDD;
-}
-
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    text-decoration: none;
-    list-style: none;
-}
-
-nav {
-    border-bottom: var(--bordeheaderfooter);
-    background-color: var(--colorheaderfooter);
-}
-
 body {
     font-family: 'Open Sans', sans-serif;
     font-weight: normal;
@@ -29,21 +10,6 @@ body {
 
 p {
     font-family: 'Fredoka', sans-serif;
-}
-
-.logo {
-    height: 110px;
-    width: 450px;
-    padding-right: 10%;
-}
-
-footer {
-    display: flex;
-    padding: 10px 0 0 0;
-    border-top: var(--bordeheaderfooter);
-    background-color: var(--colorheaderfooter);
-    justify-content: space-around;
-    margin-top: 50px;
 }
 
 .white {
