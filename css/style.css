@@ -3,6 +3,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400&family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400&family=Open+Sans:ital@1&family=Roboto&display=swap');
 
+:root {
+    --colorheaderfooter: #EEEEEE;
+    --bordeheaderfooter: solid 2px #DDDDDD;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
 .logo {
     height: 140px;
     width: 450px;
@@ -15,8 +29,8 @@
 footer {
     display: flex;
     padding: 20px 0 0 0;
-    border-top: solid 2px #DDDDDD;
-    background-color: #EEEEEE;
+    border-top: var(--bordeheaderfooter);
+    background-color: var(--colorheaderfooter);
     justify-content: space-around;
     margin-top: 50px;
 }
@@ -149,7 +163,7 @@ footer {
 @media screen and (max-width: 768px) {
 
     nav {
-        flex-direction:column;
+        flex-direction: column;
     }
 
     li {
@@ -157,7 +171,7 @@ footer {
         padding-right: 15px;
         padding-top: 50px;
     }
-      
+
     .logo {
         height: 150px;
         width: 200px;
@@ -166,7 +180,7 @@ footer {
         padding-top: 6px;
         padding-bottom: 6px;
     }
-    
+
     footer {
         display: flex;
         padding: 10px 0 0 0;
@@ -175,28 +189,28 @@ footer {
         justify-content: space-around;
         margin-top: 30px;
     }
-    
+
     .video {
         padding-top: 7px;
         padding-bottom: 7px;
     }
-    
+
     .tamvideo {
         height: 300px;
         width: 100%;
     }
-    
+
     .sponsors {
         margin: 0;
         display: flex;
         height: 90px;
         justify-content: space-evenly;
     }
-    
+
     .container {
         grid-template-columns: 1fr;
         grid-gap: 10px;
-    
+
     }
 
     .aa {
@@ -206,28 +220,28 @@ footer {
     .bb {
         grid-row: 1 span;
     }
-     
+
     .container2 {
         grid-template-columns: 1fr;
         grid-gap: 5px;
     }
-    
+
     .dos {
         grid-column: 1 span;
     }
-    
+
     .tres {
         grid-column: 1 span;
     }
-    
+
     .seis {
         grid-column: 1 span;
     }
 
     .amort {
-       flex-direction: column;
-       gap:5px;
-       align-items: center;
+        flex-direction: column;
+        gap: 5px;
+        align-items: center;
     }
 
     .prod {
@@ -236,20 +250,20 @@ footer {
         height: 100px;
         justify-content: space-evenly;
     }
-    
+
     .contacto {
         display: flex;
         padding-top: 15px;
         flex-direction: column;
         align-items: center;
     }
-    
+
     .contacto2 {
         padding-top: 25px;
         padding-bottom: 25px;
         text-align: center;
     }
-    
+
     .container3 {
         display: grid;
         grid-template-columns: 1fr;
@@ -257,34 +271,34 @@ footer {
         grid-auto-rows: 300px;
     }
 
-    .siete{
+    .siete {
         grid-column: 1 span;
     }
 
-    .siete img{
+    .siete img {
         height: 250px;
         padding-left: 20px;
         padding-right: 20px;
     }
-    
+
     .ocho {
         grid-row: 1 span;
     }
 
-    .ocho img{
+    .ocho img {
         height: 250px;
         padding-left: 20px;
         padding-right: 20px;
     }
-    
+
     .nueve {
         grid-column: 1 span;
     }
 
-    .nueve img{
+    .nueve img {
         height: 250px;
         padding-left: 20px;
         padding-right: 20px;
     }
-    
+
 }
