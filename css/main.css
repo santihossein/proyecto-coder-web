@@ -9,13 +9,9 @@
   text-decoration: none;
   list-style: none; }
 
-:root {
-  --colorheaderfooter: #EEEEEE;
-  --bordeheaderfooter: solid 3px #DDDDDD; }
-
 nav {
-  border-bottom: var(--bordeheaderfooter);
-  background-color: var(--colorheaderfooter); }
+  border-bottom: solid 3px #DDDDDD;
+  background-color: #EEEEEE; }
 
 .logo {
   height: 110px;
@@ -25,17 +21,16 @@ nav {
 footer {
   display: flex;
   padding: 10px 0 0 0;
-  border-top: var(--bordeheaderfooter);
-  background-color: var(--colorheaderfooter);
+  border-top: solid 3px #DDDDDD;
+  background-color: #EEEEEE;
   justify-content: space-around;
   margin-top: 50px; }
 
 body {
   font-family: 'Open Sans', sans-serif;
   font-weight: normal; }
-
-p {
-  font-family: 'Fredoka', sans-serif; }
+  body p {
+    font-family: 'Fredoka', sans-serif; }
 
 .white {
   color: white; }
