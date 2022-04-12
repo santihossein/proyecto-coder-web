@@ -22,12 +22,13 @@ body {
     padding-bottom: 15px;
     display: flex;
     justify-content: center;
+    .tamvideo {
+        height: 600px;
+        width: 100%;
+    }
 }
 
-.tamvideo {
-    height: 600px;
-    width: 100%;
-}
+
 
 .subtitulos {
     padding-top: 30px;
@@ -43,18 +44,6 @@ body {
     text-align: center;
 }
 
-.sponsors {
-    margin: 0;
-    display: flex;
-    height: 6em;
-    justify-content: space-around;
-    padding-bottom: 1%;
-}
-
-.flex{
-    display: flex;
-    justify-content: center;
-}
 
 .prod {
     margin: 0;
@@ -75,20 +64,6 @@ body {
     padding-top: 50px;
     padding-bottom: 50px;
     text-align: center;
-}
-
-
-.amort {
-    display: flex;
-    padding: 0;
-    justify-content: space-around;
-    padding-top: 20px;
-}
-
-.marcas {
-    display: flex;
-    justify-content: space-around;
-    height: 5em;
 }
 
 .insumos {

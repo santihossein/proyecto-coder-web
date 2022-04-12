@@ -41,10 +41,9 @@ body {
   padding-bottom: 15px;
   display: flex;
   justify-content: center; }
-
-.tamvideo {
-  height: 600px;
-  width: 100%; }
+  .video .tamvideo {
+    height: 600px;
+    width: 100%; }
 
 .subtitulos {
   padding-top: 30px;
@@ -57,13 +56,6 @@ body {
 .nosotros {
   font-family: 'Fredoka', sans-serif;
   text-align: center; }
-
-.sponsors {
-  margin: 0;
-  display: flex;
-  height: 6em;
-  justify-content: space-around;
-  padding-bottom: 1%; }
 
 .prod {
   margin: 0;
@@ -83,17 +75,6 @@ body {
   padding-bottom: 50px;
   text-align: center; }
 
-.amort {
-  display: flex;
-  padding: 0;
-  justify-content: space-around;
-  padding-top: 20px; }
-
-.marcas {
-  display: flex;
-  justify-content: space-around;
-  height: 5em; }
-
 .insumos {
   display: flex;
   justify-content: space-evenly;
@@ -102,6 +83,22 @@ body {
 
 .redes {
   height: 50px; }
+
+.sponsors, .amort, .marcas {
+  display: flex;
+  justify-content: space-around; }
+
+.sponsors {
+  margin: 0;
+  height: 6em;
+  padding-bottom: 1%; }
+
+.amort {
+  padding: 0;
+  padding-top: 20px; }
+
+.marcas {
+  height: 5em; }
 
 @media screen and (max-width: 768px) {
   .logo {
